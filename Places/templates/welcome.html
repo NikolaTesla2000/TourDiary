@@ -1,0 +1,48 @@
+
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Welcome | Tour-diary</title>
+        <!-- Bootstrap Core CSS -->
+        <link href="{% static 'css/bootstrap.css' %}" rel="stylesheet">
+        <!-- Custom CSS -->
+        <link href="{% static 'css/style.css' %}" rel="stylesheet">
+        <!-- jQuery -->
+        <script src="{% static 'js/jquery.js' %}"></script>
+        <!-- Bootstrap Core JavaScript -->
+        <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    </head>
+
+
+        <div id="content">
+            <!--Main banner image-->
+            <div id = "banner_image">
+                <div class="container">
+                    <center>
+                        <div id="banner_content">
+                            <h1>Welcome To TourDiary</h1>
+                            <br/>
+                            <a  href="index" class="btn btn-danger btn-lg active">Click here</a>
+                        </div>
+                    </center>
+                </div>
+            </div>
+
+            <!--Item categories listing end-->
+        </div>
+
+        <!--Footer-->
+        <footer>
+            <div class="container">
+                <center>
+                    <p>Copyright &copy; Tour-Diary. All Rights Reserved  |  Contact Us: +91 90000 00000</p>
+                </center>
+            </div>
+        </footer>
+        <!--Footer end-->
+
+    </body>
+</html>
